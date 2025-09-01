@@ -1,0 +1,12 @@
+<?php /* Oppgave 1 */
+/*
+/* Programmet mottar fra et HTML-skjema et fornavn og et etternavn ved POST-metoden
+/* Programmet skriver ut en "god dag"-melding med personens navn
+*/
+$tall1 =$_POST ["tall1"];
+$tall2=$_POST ["tall2"]; /* variable gitt verdier fra feltene i HTML-skjemaet */
+$sum = $tall1 + $tall2;
+$differansen =$tall1 - $tall2;
+
+print ("summen av $tall1 og $tall2 er $sum<br /> differansen av "tall1 og $tall2 er $sum"); /* resultat skrevet ut */
+?>
